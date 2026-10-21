@@ -11,8 +11,8 @@ Thumbs.db
 
 # Environment files
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Node modules (for plugins with JS/TS)
 node_modules/
